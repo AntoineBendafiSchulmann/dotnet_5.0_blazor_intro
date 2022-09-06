@@ -1,0 +1,59 @@
+@page "/vous"
+
+@using System.Text
+
+<div class="container">
+    <h3>Votre séjour</h3>
+
+    <div class="form-group">
+        <label for="nom">Prénom nom</label>
+        <input id="nom" placeholder="Votre prénom et nom" @bind="sejour.Nom" @bind:event="oninput">
+    </div>
+    <Passagers @bind-Nombre="sejour.Nbpassagers"></Passagers>
+    <div class="form-group">
+        <label for="depart">Date de départ</label>
+        <input id="depart" type="date" placeholder="Quand partez-vous ?"@bind="sejour.Depart">
+        <label for="retour">Date de retour</label>
+        <input id="retour"  type="date" placeholder="Quand revenez-vous ?"@bind="sejour.Retour">
+        @TexteDuree()
+    </div>
+    <p>@Resume</p>
+</div>
+
+
+@code {
+    private Sejour sejour = new Sejour(DateTime.Now.Date + TimeSpan.FromDays(7));
+
+    private string TexteDuree()
+    {
+        (string terminaison, string pluriel) = (sejour.Duree.TotalDays == 1) ? ("t", "") : ("ent", "s");
+        return $"soient {sejour.Duree.TotalDays} jour{pluriel}";
+        
+    }
+
+    private string Resume 
+    {
+        get
+        {
+            StringBuilder sb = new StringBuilder("Bienvenue");
+
+            if (sejour.Nom.Length>0)
+            {
+                sb.Append($" {sejour.Prenom}");
+            }
+            sb.Append($", nous vous attendons pour un séjour inoubliable");
+            if (sejour.Nbpassagers == 2)
+            {
+                sb.Append(", vous et la personne qui vous accompagne");
+            }
+            else if (sejour.Nbpassagers > 2)
+            {
+                sb.Append(" avec votre \"tribu\"");
+            }
+            sb.Append(".");
+            return sb.ToString();
+
+            
+        }
+    }
+}
