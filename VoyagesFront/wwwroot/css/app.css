@@ -33,6 +33,10 @@
     height: 400px;
 }
 
+.jumbotron p {
+    color: black;
+}
+
 .header {
     padding-top: 120px;
 }
