@@ -1767,11 +1767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/antoinebendafi/Sites/localhost/intro_blazor/VoyagesFront/VoyagesFront.csproj",
+      "projectUniqueName": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/VoyagesFront.csproj",
       "projectName": "VoyagesFront",
-      "projectPath": "/Users/antoinebendafi/Sites/localhost/intro_blazor/VoyagesFront/VoyagesFront.csproj",
+      "projectPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/VoyagesFront.csproj",
       "packagesPath": "/Users/antoinebendafi/.nuget/packages/",
-      "outputPath": "/Users/antoinebendafi/Sites/localhost/intro_blazor/VoyagesFront/obj/",
+      "outputPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/antoinebendafi/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yh5pQ2LprR4rs477EYp7+w4rG8hFJjvEtDXlPlH+0F54mj+3wEL5iPY91udeqwEOLz42OGB2j7st1YbUxkZ0AQ==",
+  "dgSpecHash": "PGpJOZwWTuOzk0zkrL4rY3doHPHnRg5Ta+aU4pbg1mzNcqyP0kQgzCD0vWBtTY/YKPVZGo0baYAgPHlKivo6uA==",
   "success": true,
-  "projectFilePath": "/Users/antoinebendafi/Sites/localhost/intro_blazor/VoyagesFront/VoyagesFront.csproj",
+  "projectFilePath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/VoyagesFront.csproj",
   "expectedPackageFiles": [
     "/Users/antoinebendafi/.nuget/packages/microsoft.aspnetcore.authorization/6.0.8/microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "/Users/antoinebendafi/.nuget/packages/microsoft.aspnetcore.components/6.0.8/microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
