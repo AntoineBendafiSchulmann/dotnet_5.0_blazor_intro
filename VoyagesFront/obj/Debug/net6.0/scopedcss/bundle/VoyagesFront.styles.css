@@ -1,3 +1,31 @@
+/* /Pages/Index.razor.rz.scp.css */
+[b-48t4dja95i] .jumbotron {
+    background-position: top left;
+    background-size: cover;
+    height: 400px;    
+}
+
+[b-48t4dja95i] .jumbotron p {
+    color: black;
+}
+/* /Pages/Inscription.razor.rz.scp.css */
+
+[b-28n9pbiidr] .validation-errors {
+
+    color:#721c24;
+    background-color:#f8d7da;
+    border: 1px solid #f5c6cb;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+
+}
+
+[b-28n9pbiidr] .validation-errors li {
+    list-style-type: none;
+}
+
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-zjje0n4tm9] {
     position: relative;
@@ -36,6 +64,7 @@ main[b-zjje0n4tm9] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-zjje0n4tm9] {
@@ -101,6 +130,8 @@ main[b-zjje0n4tm9] {
     top: -2px;
 }
 
+
+
 .nav-item[b-qcrm4xl88p] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
@@ -137,6 +168,7 @@ main[b-zjje0n4tm9] {
     .navbar-toggler[b-qcrm4xl88p] {
         display: none;
     }
+
 
     .collapse[b-qcrm4xl88p] {
         /* Never collapse the sidebar for wide screens */

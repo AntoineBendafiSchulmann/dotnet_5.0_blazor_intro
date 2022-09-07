@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OsOdcGkJUQPT0fcYIu8wX/V6aAar5Y65qnk6kX1hrd4=",
+  "Hash": "/8c2Sy+Jk4zDnFwr4tBHUmfYik5c3rwmLoUPzHWUH5w=",
   "Source": "VoyagesFront",
   "BasePath": "/",
   "Mode": "Root",
@@ -6849,6 +6849,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/wwwroot/appsettings.json",
+      "SourceId": "VoyagesFront",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "appsettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "settings",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/appsettings.json"
     },
     {
       "Identity": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/wwwroot/css/app.css",

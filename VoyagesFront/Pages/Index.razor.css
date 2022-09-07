@@ -1,0 +1,9 @@
+::deep .jumbotron {
+    background-position: top left;
+    background-size: cover;
+    height: 400px;    
+}
+
+::deep .jumbotron p {
+    color: black;
+}

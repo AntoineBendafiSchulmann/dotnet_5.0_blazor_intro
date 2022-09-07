@@ -18,6 +18,8 @@
     top: -2px;
 }
 
+
+
 .nav-item[b-qcrm4xl88p] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
@@ -54,6 +56,7 @@
     .navbar-toggler[b-qcrm4xl88p] {
         display: none;
     }
+
 
     .collapse[b-qcrm4xl88p] {
         /* Never collapse the sidebar for wide screens */

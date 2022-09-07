@@ -18,6 +18,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "Live reload": {
+      "commandName": "Executable",
+      "executablePath": "../../../live.bat",
+      "commandLineArgs": "5500",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

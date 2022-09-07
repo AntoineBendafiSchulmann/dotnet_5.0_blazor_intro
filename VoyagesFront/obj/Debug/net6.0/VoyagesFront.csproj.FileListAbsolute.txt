@@ -1628,3 +1628,8 @@
 /Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/refint/VoyagesFront.dll
 /Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/VoyagesFront.pdb
 /Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/ref/VoyagesFront.dll
+/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/scopedcss/Pages/Index.razor.rz.scp.css
+/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/scopedcss/Pages/Inscription.razor.rz.scp.css
+/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/VoyagesFront.Pages.Index.resources
+/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/VoyagesFront.Pages.Index.fr.resources
+/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront/obj/Debug/net6.0/VoyagesFront.csproj.GenerateResource.cache

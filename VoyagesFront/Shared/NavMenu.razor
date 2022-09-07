@@ -1,33 +1,75 @@
-﻿<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Voyages</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <NavLink class="nav-link ml-3" href="/" Match="NavLinkMatch.All">Accueil</NavLink>
-        </li>
-        <li class="nav-item">
-            <NavLink class="nav-link mt-3" href="/styles">Styles</NavLink>
-        </li>
-        <li class="nav-item">
-            <NavLink class="nav-link mt-3" href="/vous">Votre séjour</NavLink>
-        </li>
-    </ul>
+﻿@using Blazored.Typeahead
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
 
-    <ul class="navbar-nav justify-content-end">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mon compte</a>
-            <div class="dropdown-menu dropdown-menu-right">
-                <NavLink class="dropdown-item" href="/compte/inscription">Inscription</NavLink>
-                <NavLink class="dropdown-item" href="/compte/connexion">Connexion</NavLink>
-            </div>
-        </li>
-    </ul>
+@inject SignOutSessionStateManager signout
+@inject NavigationManager nav
+@inject IDataContext data
 
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Voyages</a>
+    <div class="navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Accueil</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/styles">Styles</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/vous">Votre séjour</NavLink>
+            </li>
+        </ul>
+        <form class="form-inline mr-4">
+            <BlazoredTypeahead SearchMethod="ChercherVoyage" @bind-Value="Sélection">
+                <SelectedTemplate Context="v">@v.Titre</SelectedTemplate>
+                <ResultTemplate Context="v">@v.Titre (@v.Pays)</ResultTemplate>
+            </BlazoredTypeahead>
+        </form>
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Mon compte"><span class="oi oi-person"></span></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <AuthorizeView>
+                        <Authorized>
+                            <NavLink class="dropdown-item" href="/authentication/profile">Mon compte</NavLink>
+                            <div class="dropdown-divider"></div>
+                            <â class="dropdown-item" href="#" @onclick="e => Déconnecter()">Déconnexion</â>
+                        </Authorized>
+                        <NotAuthorized>
+                            <NavLink class="dropdown-item" href="/authentication/register">Inscription</NavLink>
+                            <NavLink class="dropdown-item" href="/authentication/login">Connexion</NavLink>
+                        </NotAuthorized>
+                    </AuthorizeView>
 
+                </div>
+            </li>
+        </ul>
     </div>
 </nav>
 
-
 @code {
-
+    private async Task Déconnecter()
+    {
+        await signout.SetSignOutState();
+        nav.NavigateTo("/authentication/logout");
+    }
+    public Voyage Sélection
+    {
+        get => null;
+        set
+        {
+            if (value != null)
+            {
+                nav.NavigateTo($"/styles/{value.Style}/{value.Id}");
+            }
+        }
+    }
+    private async Task<IEnumerable<Voyage>> ChercherVoyage(string recherche) => await Task.FromResult<IEnumerable<Voyage>>(
+        data.Voyages.Where(v =>
+            v.Titre.Contains(recherche)
+            || v.Pays.Contains(recherche)
+            || v.Style.Contains(recherche)
+            || v.Description.Contains(recherche)
+        ));
 }
