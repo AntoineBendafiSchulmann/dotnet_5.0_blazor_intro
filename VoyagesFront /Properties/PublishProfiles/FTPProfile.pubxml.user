@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.cluster006.hosting.ovh.net/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="web.config">
+      <publishTime>10/26/2020 22:38:50</publishTime>
+    </File>
+    <File Include="wwwroot/appsettings.Development.json">
+      <publishTime>11/27/2020 16:40:17</publishTime>
+    </File>
+    <File Include="wwwroot/appsettings.Development.json.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/appsettings.Development.json.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/appsettings.json">
+      <publishTime>11/27/2020 16:35:31</publishTime>
+    </File>
+    <File Include="wwwroot/appsettings.json.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/appsettings.json.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/app.css">
+      <publishTime>11/28/2020 11:05:50</publishTime>
+    </File>
+    <File Include="wwwroot/css/app.css.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/css/app.css.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css">
+      <publishTime>11/27/2020 15:02:55</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css.map">
+      <publishTime>11/27/2020 15:02:55</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css.map.br">
+      <publishTime>11/29/2020 08:41:52</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap/bootstrap.min.css.map.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/FONT-LICENSE">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/FONT-LICENSE.br">
+      <publishTime>11/29/2020 08:41:52</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/FONT-LICENSE.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css.br">
+      <publishTime>11/29/2020 08:41:52</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.eot">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.eot.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.eot.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.otf">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.otf.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.otf.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.svg">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.svg.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.svg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.ttf">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.ttf.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.ttf.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.woff">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.woff.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/font/fonts/open-iconic.woff.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/ICON-LICENSE">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/ICON-LICENSE.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/ICON-LICENSE.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/README.md">
+      <publishTime>11/27/2020 15:02:56</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/README.md.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/css/open-iconic/README.md.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>11/27/2020 15:02:55</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico.br">
+      <publishTime>11/29/2020 08:41:48</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/icon-512.png">
+      <publishTime>11/29/2020 11:22:40</publishTime>
+    </File>
+    <File Include="wwwroot/icon-512.png.br">
+      <publishTime>11/29/2020 20:24:34</publishTime>
+    </File>
+    <File Include="wwwroot/icon-512.png.gz">
+      <publishTime>11/29/2020 20:24:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/bandung.jpg">
+      <publishTime>11/21/2020 09:16:17</publishTime>
+    </File>
+    <File Include="wwwroot/img/bandung.jpg.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/img/bandung.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/chili.jpg">
+      <publishTime>11/21/2020 09:54:01</publishTime>
+    </File>
+    <File Include="wwwroot/img/chili.jpg.br">
+      <publishTime>11/29/2020 08:41:50</publishTime>
+    </File>
+    <File Include="wwwroot/img/chili.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/derbyshire.jpg">
+      <publishTime>11/21/2020 09:55:40</publishTime>
+    </File>
+    <File Include="wwwroot/img/derbyshire.jpg.br">
+      <publishTime>11/29/2020 08:41:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/derbyshire.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/florence.jpg">
+      <publishTime>11/21/2020 09:14:36</publishTime>
+    </File>
+    <File Include="wwwroot/img/florence.jpg.br">
+      <publishTime>11/29/2020 08:41:50</publishTime>
+    </File>
+    <File Include="wwwroot/img/florence.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/hohenzollern.jpg">
+      <publishTime>11/21/2020 09:54:26</publishTime>
+    </File>
+    <File Include="wwwroot/img/hohenzollern.jpg.br">
+      <publishTime>11/29/2020 08:41:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/hohenzollern.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/home.jpg">
+      <publishTime>11/21/2020 12:13:15</publishTime>
+    </File>
+    <File Include="wwwroot/img/home.jpg.br">
+      <publishTime>11/29/2020 08:41:52</publishTime>
+    </File>
+    <File Include="wwwroot/img/home.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/jusang.jpg">
+      <publishTime>11/21/2020 09:15:40</publishTime>
+    </File>
+    <File Include="wwwroot/img/jusang.jpg.br">
+      <publishTime>11/29/2020 08:41:52</publishTime>
+    </File>
+    <File Include="wwwroot/img/jusang.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/kenya.jpg">
+      <publishTime>11/21/2020 09:20:47</publishTime>
+    </File>
+    <File Include="wwwroot/img/kenya.jpg.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/img/kenya.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/kirkjufell.jpg">
+      <publishTime>11/21/2020 09:12:26</publishTime>
+    </File>
+    <File Include="wwwroot/img/kirkjufell.jpg.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/img/kirkjufell.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/newyork.jpg">
+      <publishTime>11/21/2020 09:52:41</publishTime>
+    </File>
+    <File Include="wwwroot/img/newyork.jpg.br">
+      <publishTime>11/29/2020 08:41:50</publishTime>
+    </File>
+    <File Include="wwwroot/img/newyork.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/santorini.jpg">
+      <publishTime>11/21/2020 09:21:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/santorini.jpg.br">
+      <publishTime>11/29/2020 08:41:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/santorini.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/taipei.jpg">
+      <publishTime>11/21/2020 09:55:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/taipei.jpg.br">
+      <publishTime>11/29/2020 08:41:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/taipei.jpg.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>11/29/2020 11:26:38</publishTime>
+    </File>
+    <File Include="wwwroot/index.html.br">
+      <publishTime>11/29/2020 20:24:34</publishTime>
+    </File>
+    <File Include="wwwroot/index.html.gz">
+      <publishTime>11/29/2020 20:24:39</publishTime>
+    </File>
+    <File Include="wwwroot/manifest.json">
+      <publishTime>11/29/2020 11:26:38</publishTime>
+    </File>
+    <File Include="wwwroot/manifest.json.br">
+      <publishTime>11/29/2020 20:24:34</publishTime>
+    </File>
+    <File Include="wwwroot/manifest.json.gz">
+      <publishTime>11/29/2020 20:24:39</publishTime>
+    </File>
+    <File Include="wwwroot/sample-data/weather.json">
+      <publishTime>11/27/2020 15:02:55</publishTime>
+    </File>
+    <File Include="wwwroot/sample-data/weather.json.br">
+      <publishTime>11/29/2020 08:41:51</publishTime>
+    </File>
+    <File Include="wwwroot/sample-data/weather.json.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/service-worker-assets.js">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/service-worker-assets.js.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/service-worker-assets.js.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/service-worker.js">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/service-worker.js.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/service-worker.js.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/VoyagesFront.styles.css">
+      <publishTime>11/29/2020 08:41:32</publishTime>
+    </File>
+    <File Include="wwwroot/VoyagesFront.styles.css.br">
+      <publishTime>11/29/2020 08:41:57</publishTime>
+    </File>
+    <File Include="wwwroot/VoyagesFront.styles.css.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_content/Blazored.Typeahead/blazored-typeahead.css">
+      <publishTime>11/01/2020 00:46:02</publishTime>
+    </File>
+    <File Include="wwwroot/_content/Blazored.Typeahead/blazored-typeahead.css.br">
+      <publishTime>11/29/2020 08:41:57</publishTime>
+    </File>
+    <File Include="wwwroot/_content/Blazored.Typeahead/blazored-typeahead.css.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_content/Blazored.Typeahead/blazored-typeahead.js">
+      <publishTime>11/01/2020 00:46:02</publishTime>
+    </File>
+    <File Include="wwwroot/_content/Blazored.Typeahead/blazored-typeahead.js.br">
+      <publishTime>11/29/2020 08:41:51</publishTime>
+    </File>
+    <File Include="wwwroot/_content/Blazored.Typeahead/blazored-typeahead.js.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/blazor.boot.json">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/blazor.boot.json.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/blazor.boot.json.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/blazor.webassembly.js">
+      <publishTime>10/26/2020 22:59:12</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/blazor.webassembly.js.br">
+      <publishTime>11/29/2020 08:41:49</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/blazor.webassembly.js.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Blazored.Typeahead.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Blazored.Typeahead.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Blazored.Typeahead.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.5.0.0.js">
+      <publishTime>10/19/2020 18:26:48</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.5.0.0.js.br">
+      <publishTime>11/29/2020 08:41:57</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.5.0.0.js.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.timezones.blat">
+      <publishTime>10/19/2020 18:26:24</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.timezones.blat.br">
+      <publishTime>11/29/2020 08:41:53</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.timezones.blat.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.wasm">
+      <publishTime>10/19/2020 18:26:48</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.wasm.br">
+      <publishTime>11/29/2020 08:42:03</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/dotnet.wasm.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/fr/VoyagesFront.resources.dll">
+      <publishTime>11/29/2020 21:30:10</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/fr/VoyagesFront.resources.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/fr/VoyagesFront.resources.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt.dat">
+      <publishTime>10/19/2020 18:26:48</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt.dat.br">
+      <publishTime>11/29/2020 08:42:09</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt.dat.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_CJK.dat">
+      <publishTime>10/19/2020 18:26:48</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_CJK.dat.br">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_CJK.dat.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_EFIGS.dat">
+      <publishTime>10/19/2020 18:26:48</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_EFIGS.dat.br">
+      <publishTime>11/29/2020 08:41:54</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_EFIGS.dat.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_no_CJK.dat">
+      <publishTime>10/19/2020 18:26:48</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_no_CJK.dat.br">
+      <publishTime>11/29/2020 08:41:57</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/icudt_no_CJK.dat.gz">
+      <publishTime>11/29/2020 08:42:14</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.WebUtilities.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.AspNetCore.WebUtilities.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Localization.Abstractions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Localization.Abstractions.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Localization.Abstractions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Localization.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Localization.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Localization.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Configuration.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Configuration.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Configuration.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.JSInterop.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.JSInterop.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.JSInterop.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Net.Http.Headers.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Net.Http.Headers.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/Microsoft.Net.Http.Headers.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Concurrent.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Concurrent.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Concurrent.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Immutable.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Immutable.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Immutable.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Specialized.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Specialized.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Collections.Specialized.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.Annotations.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.Annotations.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.Annotations.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.Primitives.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.Primitives.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.Primitives.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.TypeConverter.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.TypeConverter.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ComponentModel.TypeConverter.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Console.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Console.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Console.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.IO.Pipelines.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.IO.Pipelines.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.IO.Pipelines.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Linq.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Linq.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Linq.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Linq.Expressions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Linq.Expressions.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Linq.Expressions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Memory.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Memory.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Memory.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Net.Http.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Net.Http.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Net.Http.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Net.Primitives.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Net.Primitives.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Net.Primitives.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ObjectModel.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ObjectModel.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.ObjectModel.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.CoreLib.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.CoreLib.dll.br">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.CoreLib.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.Runtime.InteropServices.JavaScript.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.Runtime.InteropServices.JavaScript.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.Runtime.InteropServices.JavaScript.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.Uri.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.Uri.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Private.Uri.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.Json.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.Json.dll.br">
+      <publishTime>11/29/2020 21:30:43</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.Json.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll.br">
+      <publishTime>11/29/2020 21:30:44</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/VoyagesFront.dll">
+      <publishTime>11/29/2020 21:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/VoyagesFront.dll.br">
+      <publishTime>11/29/2020 21:30:42</publishTime>
+    </File>
+    <File Include="wwwroot/_framework/VoyagesFront.dll.gz">
+      <publishTime>11/29/2020 21:30:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿@inherits LayoutComponentBase
+
+@using System.Globalization;
+@using Microsoft.AspNetCore.WebUtilities;
+
+@inject NavigationManager nav
+@inject IConfiguration conf
+@inject ILoggerFactory logFactory
+
+<CascadingValue Value="uid">
+    <CascadingValue Value="styles">
+        <NavMenu />
+
+        @Body
+    </CascadingValue>
+</CascadingValue>
+
+@code {
+    public string[] styles;
+
+    private ILogger log;
+    private Guid uid;
+
+    protected override void OnInitialized()
+    {
+        log = logFactory.CreateLogger<MainLayout>();
+        styles = conf.GetValue<string>("Const:Styles").Split(',');
+        uid = Guid.NewGuid();
+
+        log.LogInformation("Initialisation");
+
+        if (QueryHelpers.ParseQuery(new Uri(nav.Uri).Query).TryGetValue("lang", out var paramLang))
+        {
+            CultureInfo culture;
+
+            try
+            {
+                culture = new CultureInfo(paramLang);
+            }
+            catch (CultureNotFoundException e)
+            {
+                culture = new CultureInfo("en");
+            }
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentUICulture = culture;
+        }
+    }
+}
