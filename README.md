@@ -3,15 +3,15 @@
 
 ## Ce projet à pour but :
 
-- prise en main de l'infrastructure
-- prise en main et la découverte de ses différents composants
-- aborder également les interactions avec JavaScript ainsi que les nombreuses bibliothèques de composants à disposition
+- organiser les composants  et leurs intéractions avec l'utilisateurs et leurs données
+- concevoir une application simple page en précisant son routage  en gérant les évènements + cycle de vie des composants
++ formulaires
 
-# en 2 parties :
+## Attention :
 
-front
+manque compréhensions sur les NuGet (dépendances externes)
 
-back
++ backend c#
 
 
 
