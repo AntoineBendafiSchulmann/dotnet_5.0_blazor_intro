@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fntkyU2dlo2+Iv6a6QxMvrjlW4lc65eydHqlvPMQjgNv3crVaz9zVSSmGJRpBLFcK/tfwAjqIoqszgwtSsUkvw==",
+  "success": true,
+  "projectFilePath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/Voyages.csproj",
+  "expectedPackageFiles": [
+    "/Users/antoinebendafi/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/antoinebendafi/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,6 +1,9 @@
 # dotnet_6.0.400_blazor_intro
 ## Introduction au framework blazor
 
+
+# un framework utilisé pour les interfaces côté client
+
 ## Ce projet à pour but :
 
 - organiser les composants  et leurs intéractions avec l'utilisateurs et leurs données
@@ -53,4 +56,7 @@ puis lancer le déboguage
 # .NET Interactive Notebooks
 # C#
 
+# ressources diverses 
+
+https://goons.fr/deploiement-sur-environnement-de-production
 

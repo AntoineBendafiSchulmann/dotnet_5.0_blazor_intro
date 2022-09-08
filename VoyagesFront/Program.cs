@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging;//les logs sont des messages qui sont affichés dans la console du navigateur
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -17,8 +17,9 @@ namespace VoyagesFront
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
 
+
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-            builder.logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
+            builder.Logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
             builder.Services.AddSingleton<IDataContext>(s=>new DataContext());
             await builder.Build().RunAsync();
         }
