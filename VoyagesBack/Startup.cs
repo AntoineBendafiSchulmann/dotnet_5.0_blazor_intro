@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication;//appelle les packages
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -19,7 +19,7 @@ using VoyagesBack.Models;
 
 namespace VoyagesBack
 {
-    public class Startup //public signifie que la classe est accesible par d'autres classes
+    public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -31,7 +31,7 @@ namespace VoyagesBack
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IDataContext>(services => new DataContext() { Voyages = DataContext.DonneesDeTest });
+            services.AddScoped<IDataContext>(services => new DataContext() { Voyages = DataContext.DonnéesDeTest });
             
             services.AddSwaggerGen(c =>
             {

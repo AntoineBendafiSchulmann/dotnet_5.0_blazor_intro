@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront /VoyagesFront.csproj": {}
+  },
+  "projects": {
+    "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/ComposantsCourants/ComposantsCourants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/ComposantsCourants/ComposantsCourants.csproj",
+        "projectName": "ComposantsCourants",
+        "projectPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/ComposantsCourants/ComposantsCourants.csproj",
+        "packagesPath": "/Users/antoinebendafi/.nuget/packages/",
+        "outputPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/ComposantsCourants/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/antoinebendafi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/Voyages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/Voyages.csproj",
+        "projectName": "Voyages",
+        "projectPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/Voyages.csproj",
+        "packagesPath": "/Users/antoinebendafi/.nuget/packages/",
+        "outputPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/antoinebendafi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront /VoyagesFront.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront /VoyagesFront.csproj",
+        "projectName": "VoyagesFront",
+        "projectPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront /VoyagesFront.csproj",
+        "packagesPath": "/Users/antoinebendafi/.nuget/packages/",
+        "outputPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/VoyagesFront /obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/antoinebendafi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/ComposantsCourants/ComposantsCourants.csproj": {
+                "projectPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/ComposantsCourants/ComposantsCourants.csproj"
+              },
+              "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/Voyages.csproj": {
+                "projectPath": "/Users/antoinebendafi/Sites/localhost/dotnet_6.0.400_blazor_intro/Voyages/Voyages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Blazored.Typeahead": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
